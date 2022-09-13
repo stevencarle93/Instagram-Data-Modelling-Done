@@ -8,6 +8,8 @@ from eralchemy import render_er
 
 Base = declarative_base()
 
+#Classes definition
+
 class User(Base):
     __tablename__ = 'user'
 
